@@ -18,7 +18,23 @@ namespace E_Shop.Context
 
 
         }
+        public DbSet<Customer> Customers { get; set; }
         public DbSet<Product> products { get; set; }
+        public DbSet<Category> Category { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<Review> Reviews { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<PaymentInformation> PaymentInformation { get; set; }
+
+        public DbSet<ShippingAddress> ShippingAddress { get; set; }
+
+        public DbSet<Phone> Phone { get; set; }
+
+
+
+
+
+
 
     }
 

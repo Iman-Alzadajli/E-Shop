@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace E_Shop.Models
 {
-    public class Payment_Information
+    public class PaymentInformation
     {
         [Key]
         public int Id { get; set; }

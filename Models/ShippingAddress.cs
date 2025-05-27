@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace E_Shop.Models
 {
-    public class Shipping_Address
+    public class ShippingAddress
     {
         [Key]
 
